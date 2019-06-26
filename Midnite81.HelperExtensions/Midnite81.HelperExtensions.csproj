@@ -3,6 +3,20 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <LangVersion>7.1</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Helper Extensions</Title>
+        <Authors>Simon Rogers (midnite81)</Authors>
+        <Description>A package which adds miscellaneous extensions in C#</Description>
+        <Copyright>Simon Rogers</Copyright>
+        <PackageProjectUrl>https://github.com/midnite81/HelperExtensions</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/midnite81/HelperExtensions/blob/master/LICENCE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/midnite81/HelperExtensions</RepositoryUrl>
+        <PackageTags>extensions</PackageTags>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../readme.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
 
 </Project>
