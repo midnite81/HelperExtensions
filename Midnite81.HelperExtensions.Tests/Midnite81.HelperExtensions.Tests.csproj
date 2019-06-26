@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="5.7.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.1.1" />
+      <PackageReference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" Version="11.0.50727.1" />
+      <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+      <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Midnite81.HelperExtensions\Midnite81.HelperExtensions.csproj" />
+    </ItemGroup>
+
+</Project>

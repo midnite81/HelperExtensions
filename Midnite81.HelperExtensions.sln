@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midnite81.HelperExtensions", "Midnite81.HelperExtensions\Midnite81.HelperExtensions.csproj", "{3E6C3F07-2A1A-44B9-8D1A-E842A34CDDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midnite81.HelperExtensions.Tests", "Midnite81.HelperExtensions.Tests\Midnite81.HelperExtensions.Tests.csproj", "{198CE680-3676-480F-92E1-E785CDA75584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6C3F07-2A1A-44B9-8D1A-E842A34CDDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6C3F07-2A1A-44B9-8D1A-E842A34CDDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6C3F07-2A1A-44B9-8D1A-E842A34CDDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6C3F07-2A1A-44B9-8D1A-E842A34CDDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198CE680-3676-480F-92E1-E785CDA75584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198CE680-3676-480F-92E1-E785CDA75584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198CE680-3676-480F-92E1-E785CDA75584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198CE680-3676-480F-92E1-E785CDA75584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
