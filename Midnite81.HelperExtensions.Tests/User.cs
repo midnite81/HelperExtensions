@@ -5,5 +5,7 @@ namespace Midnite81.HelperExtensions.Tests
         public int Id { get; set; }
         
         public string Name { get; set; }
+        
+        public UserType Level { get; set; }
     }
 }

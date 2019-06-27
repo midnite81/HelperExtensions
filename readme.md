@@ -23,3 +23,20 @@ if (user.IsNull())
 if (user.IsNotNull())
   login();  
 ```
+
+## IsOneOf and IsOneOfCaseInsensitive
+
+This extension checks to see if an the original (IComparable) object is 
+equal to one of the (IEnumerable and Icomparable) items passed to the 
+method. 
+
+If you wish for the comparison to be case insensitive use 
+`IsOneOfCaseInsensitive`
+
+### Usage
+
+```
+if (user.UserLevel.IsOneOf(new[] { "Admin", "Super Admin" }))
+   RedirectToAdminDashboard();
+ 
+```
