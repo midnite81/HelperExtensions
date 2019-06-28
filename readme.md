@@ -47,9 +47,6 @@ This extension checks to see if a nullable type has a value and if it
 does it checks to see if it is equal to the (Icomparable) value passed 
 in the parameter.
 
-If you wish for the comparison to be case insensitive use 
-`IsOneOfCaseInsensitive`
-
 ### Usage
 
 ```
