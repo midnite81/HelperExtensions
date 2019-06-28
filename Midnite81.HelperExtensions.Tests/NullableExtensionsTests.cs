@@ -64,7 +64,35 @@ namespace Midnite81.HelperExtensions.Tests
             _obj.IsNull().Should().BeFalse();
             _class.IsNull().Should().BeFalse();
         }
-        
 
+        [TestMethod]
+        public void ItAssertsHasValueAndEqualTo()
+        {
+            int? myInt = 2;
+
+            var sut = myInt.HasValueEqualTo(2);
+
+            sut.Should().BeTrue();
+        }
+
+        [TestMethod]
+        public void ItAssertsNoValue()
+        {
+            int? myInt = null;
+
+            var sut = myInt.HasValueEqualTo(2);
+
+            sut.Should().BeFalse();
+        }
+
+        [TestMethod]
+        public void ItAssertsNoEqualTo()
+        {
+            int? myInt = 4;
+
+            var sut = myInt.HasValueEqualTo(2);
+
+            sut.Should().BeFalse();
+        }
     }
 }

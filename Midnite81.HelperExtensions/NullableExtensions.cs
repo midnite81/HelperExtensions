@@ -1,3 +1,5 @@
+using System;
+
 namespace Midnite81.HelperExtensions
 {
     public static class NullableExtensions
@@ -11,5 +13,12 @@ namespace Midnite81.HelperExtensions
         {
             return obj != null;
         }
+
+        public static bool HasValueEqualTo<TOriginal, TValue>(this TOriginal? original, TValue equalTo) 
+        where TOriginal : struct where TValue : IComparable
+        {
+            return original.HasValue && original.Value.Equals(equalTo);
+        }
     }
 }
+
